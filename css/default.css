@@ -1,1 +1,17 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
+
+@media screen and (orientation:portrait){
+  body:after{
+    font-family: 'Noto Sans Japanese', sans-serif;;
+    content: "縦長";
+  }
+}
+
+@media screen and (orientation:landscape){
+  body:after{
+    ffont-family: 'Noto Sans Japanese', sans-serif;
+    content: "縦長";
+  }
+}
