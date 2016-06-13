@@ -42,7 +42,7 @@ footer{
     clear:both;
   }
 }
-
+/*
 @media screen and (orientation:portrait){
   body:after{
     font-family: 'Noto Sans Japanese', sans-serif;;
@@ -56,3 +56,4 @@ footer{
     content: "縦長";
   }
 }
+*/
