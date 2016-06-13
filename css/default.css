@@ -28,6 +28,21 @@ footer{
   background-color: blue;
   text-align: center;
 }
+
+/* 641px以上 */
+@media screen and (min-width:641px){
+  aside{
+    width: calc(50% - 20px);
+    float:left;
+  }
+  #side:after{
+    /* clearfix */
+    content: "";
+    display:black;
+    clear:both;
+  }
+}
+
 @media screen and (orientation:portrait){
   body:after{
     font-family: 'Noto Sans Japanese', sans-serif;;
